@@ -19,10 +19,13 @@ options:
 
 
 ## install
-conda create --name crisprcasstream -y
 
+conda create -n crisprcasstream python=3.12  -y
 conda activate crisprcasstream
 
-conda install anaconda::pyqt  -y
-
 pip install matplotlib
+conda install anaconda::pyqt -y
+conda install bioconda::piler-cr -y
+conda install bioconda::prodigal -y
+
+
