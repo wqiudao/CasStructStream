@@ -33,3 +33,8 @@ conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
 
 
+## error 
+
+Qt: Session management error: None of the authentication protocols specified are supported.
+A: ignored
+This error is related to session management within the Qt library and typically does not affect the actual functionality or performance of the program. While the message indicates an issue with specific authentication protocols, it poses no threat to core operations. Therefore, no special handling is required, and the message can be safely ignored as the application continues to function normally.
