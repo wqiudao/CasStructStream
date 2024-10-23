@@ -7,12 +7,17 @@ usage: CRISPRCasStream.py [-h] {sCas,rna,msa} ...
 A tool for designed for Streamlining identification of CRISPR-Cas systems
 
 positional arguments:
+
   {sCas,rna,msa}  Subcommands
+
     sCas          Streamlined Scanning of CRISPR-Cas Systems.
+
     rna           Draw RNA secondary structure.
+
     msa           Run protein multiple sequence alignment.
 
 options:
+
   -h, --help      show this help message and exit
 
 
