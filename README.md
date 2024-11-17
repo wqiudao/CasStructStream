@@ -60,7 +60,7 @@ https://genome.jgi.doe.gov/portal/714PHBRim19094_FD/714PHBRim19094_FD.info.html
 ## sCas: Streamlined Scanning of CRISPR-Cas Systems.
 
 ```
-time crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta 
+crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta 
 2024-11-17_21-01-10
 crispr scanning...
 Finished processing 1_pilercr_3000_0
@@ -69,15 +69,8 @@ prodigal running...
 prodigal done...
 parsing and visualization...
 Done...
-
-real	0m14.726s
-user	0m19.846s
-sys	0m0.234s
-
-
-
 ```
-
+![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream2.png)
 
 
 
