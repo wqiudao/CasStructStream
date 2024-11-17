@@ -134,8 +134,8 @@ crisprcasstream msa protein.fasta
 ![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream8.png)
 
 
-
-
+# References/Citations
+Structure-Enhanced Streamlined Approaches Reveal Four Novel Compact Cas13 Proteins
 
 
 
