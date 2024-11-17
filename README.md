@@ -57,9 +57,7 @@ The assembled genome used was obtained from the JGI database.
 https://genome.jgi.doe.gov/portal/714PHBRim19094_FD/714PHBRim19094_FD.info.html
 
 
-
-
-
+## sCas: Streamlined Scanning of CRISPR-Cas Systems.
 
 ```
 time crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta 
@@ -80,10 +78,6 @@ sys	0m0.234s
 
 ```
 
-
-
-
-https://genome.jgi.doe.gov/portal/714PHBRim19094_FD/714PHBRim19094_FD.info.html
 
 
 
