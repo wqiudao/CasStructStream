@@ -82,8 +82,8 @@ Done...
 
 ## rna: Draw RNA secondary structure.
 The input file is in FASTA format, containing sequences for RNA secondary structure prediction.
-`crisprcasstream_results/DR.fasta
-`crisprcasstream_results/DR_RNA_Struct.pdf
+`  crisprcasstream_results/DR.fasta
+`  crisprcasstream_results/DR_RNA_Struct.pdf
 
 <pre> DR.fasta
   >scaffold_782_c1	
@@ -115,6 +115,33 @@ crisprcasstream rna DR.fasta
 </pre>
 ![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream5.png)
 ![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream6.png)
+
+
+## msa: Run protein multiple sequence alignment
+The input file is in FASTA format, containing protein sequences for multiple sequence alignment.
+`  crisprcasstream_results/protein.fasta
+`  crisprcasstream_results/protein_MSA_TREE.pdf
+```
+crisprcasstream msa protein.fasta
+```
+<pre>
+  Check for duplicates in FASTA headers and replace invalid characters....
+  ...Begin to run muscle...
+  ...Begin to run FastTree...
+  ...Generating PDF with ete3...
+  Done....
+</pre>
+![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream7.png)
+![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream8.png)
+
+
+
+
+
+
+
+
+
 
 
 
