@@ -115,7 +115,7 @@ crisprcasstream rna DR.fasta
 </pre>
 ![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream5.png)
 ![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream6.png)
-
+![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream7.png)
 
 ## msa: Run protein multiple sequence alignment
 The input file is in FASTA format, containing protein sequences for multiple sequence alignment.
@@ -131,7 +131,6 @@ crisprcasstream msa protein.fasta
   ...Generating PDF with ete3...
   Done....
 </pre>
-![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream7.png)
 ![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream8.png)
 
 
