@@ -60,8 +60,13 @@ https://genome.jgi.doe.gov/portal/714PHBRim19094_FD/714PHBRim19094_FD.info.html
 ## sCas: Streamlined Scanning of CRISPR-Cas Systems.
 Use the sCas function with the file `714PHBRim19094_FD_assembly.contigs.fasta` to identify CRISPR-Cas systems.
 All results are saved in the `crisprcasstream_results` directory.
+-crisprcasstream_results/CRISPRCasStream_714PHBRim19094_FD_assembly_2024-11-17_21-01-10.csv
+-crisprcasstream_results/sCas_scan_2024-11-17_21-01-25_page_1.pdf
+
 ```
 crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta 
+```
+<pre>
 2024-11-17_21-01-10
 crispr scanning...
 Finished processing 1_pilercr_3000_0
@@ -70,10 +75,8 @@ prodigal running...
 prodigal done...
 parsing and visualization...
 Done...
-```
+</pre>
 ![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream2.png)
 ![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream3.png)
 ![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream4.png)
 
-crisprcasstream_results/CRISPRCasStream_714PHBRim19094_FD_assembly_2024-11-17_21-01-10.csv
-crisprcasstream_results/sCas_scan_2024-11-17_21-01-25_page_1.pdf
