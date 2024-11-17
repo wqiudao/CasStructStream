@@ -82,7 +82,9 @@ Done...
 
 ## rna: Draw RNA secondary structure.
 The input file is in FASTA format, containing sequences for RNA secondary structure prediction.
-crisprcasstream_results/DR.fasta
+`crisprcasstream_results/DR.fasta
+`crisprcasstream_results/DR_RNA_Struct.pdf
+
 <pre> DR.fasta
   >scaffold_782_c1	
   GTCGCCCTCTTCACAGGGGGCGTGGATTGAAA
@@ -99,13 +101,20 @@ crisprcasstream_results/DR.fasta
   >scaffold_3557_c1	
   GTTATACAATACCCCTAAATTA
 </pre>
-
-
-
-
-
-
-
+```
+crisprcasstream rna DR.fasta
+```
+<pre>
+    1 GTCGCCCTCTTCACAGGGGGCGTGGATTGAAA scaffold_782_c1
+    2 GTTTCAATCCACGCCCCCTGTGAAGAGGGCGAC scaffold_1146_c1
+    3 CAATCCACGCCCCCTGTGAAGAGGGCGAC scaffold_2788_c1
+    4 GTCACATCCCCCGCACGCGCGGGGATTGAAAC scaffold_4033_c1
+    5 GTTTCAGAGAGTCCCTCGATAAAATGAGGATTGAAAG scaffold_25_c1
+    6 GCTTCAATTGGGCCGCGGTCTTTCAACCGCGGAAAC scaffold_1323_c1
+    7 GTTATACAATACCCCTAAATTA scaffold_3557_c1
+</pre>
+![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream5.png)
+![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream6.png)
 
 
 
