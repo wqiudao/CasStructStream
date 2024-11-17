@@ -51,9 +51,10 @@ This error is related to session management within the Qt library and typically 
 
 ## Test Data Preparation
 The assembled genome used was obtained from the JGI database.
-https://genome.jgi.doe.gov/portal/714PHBRim19094_FD/714PHBRim19094_FD.info.html
-![assemble](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crispr_cas_data.png)
 
+![assemble](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crispr_cas_data.png)
+*
+https://genome.jgi.doe.gov/portal/714PHBRim19094_FD/714PHBRim19094_FD.info.html
 
 
 
