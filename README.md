@@ -39,7 +39,7 @@ sudo fc-cache -fv
 ```
 
 
-## error (optional)
+error [optional]
 <pre>
 Qt: Session management error: None of the authentication protocols specified are supported.
 
