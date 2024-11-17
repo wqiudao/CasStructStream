@@ -80,3 +80,37 @@ Done...
 ![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream3.png)
 ![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream4.png)
 
+## rna: Draw RNA secondary structure.
+The input file is in FASTA format, containing sequences for RNA secondary structure prediction.
+crisprcasstream_results/DR.fasta
+<pre> DR.fasta
+  >scaffold_782_c1	
+  GTCGCCCTCTTCACAGGGGGCGTGGATTGAAA
+  >scaffold_1146_c1	
+  GTTTCAATCCACGCCCCCTGTGAAGAGGGCGAC
+  >scaffold_2788_c1	
+  CAATCCACGCCCCCTGTGAAGAGGGCGAC
+  >scaffold_4033_c1	
+  GTCACATCCCCCGCACGCGCGGGGATTGAAAC
+  >scaffold_25_c1	
+  GTTTCAGAGAGTCCCTCGATAAAATGAGGATTGAAAG
+  >scaffold_1323_c1	
+  GCTTCAATTGGGCCGCGGTCTTTCAACCGCGGAAAC
+  >scaffold_3557_c1	
+  GTTATACAATACCCCTAAATTA
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
