@@ -52,7 +52,7 @@ This error is related to session management within the Qt library and typically 
 
 
 ```
-(crisprcasstream) [miniconda3@localhost CRISPRCasStream]$ time crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta 
+time crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta 
 2024-11-17_21-01-10
 crispr scanning...
 Finished processing 1_pilercr_3000_0
