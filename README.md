@@ -39,13 +39,13 @@ conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
 ```
 [optional]
-
+```
 dnf install epel-release
 
 sudo dnf install  https://www.itzgeek.com/msttcore-fonts-2.0-3.noarch.rpm
 
 sudo fc-cache -fv
-
+```
 
 
 ## error 
