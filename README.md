@@ -64,6 +64,31 @@ All results are saved in the `crisprcasstream_results` directory.
   2. crisprcasstream_results/sCas_scan_2024-11-17_21-01-25_page_1.pdf
 
 ```
+usage: crisprcasstream sCas [-h] [--genome_size GENOME_SIZE] [--flanking_length FLANKING_LENGTH] [--cas_min CAS_MIN] [--cas_max CAS_MAX]
+                            [--motif MOTIF]
+                            assembly_file
+
+positional arguments:
+  assembly_file         Input assembly file in FASTA format.
+
+options:
+  -h, --help            show this help message and exit
+  --genome_size GENOME_SIZE
+                        The minimum scaffold length for genome assembly. Scaffolds shorter than this value will be excluded from the
+                        assembly. [def. 3000]
+  --flanking_length FLANKING_LENGTH
+                        The length of the genomic DNA sequence flanking each side of the CRISPR array. [def. 12000]
+  --cas_min CAS_MIN     The minimum length of candidate Cas proteins. Proteins shorter than this value will be excluded from
+                        consideration. [def. 400]
+  --cas_max CAS_MAX     The max length of candidate Cas proteins. Proteins longer than this value will be excluded from consideration.
+                        [def. 1000]
+  --motif MOTIF         Specify the motif pattern to search for in the protein sequence. The motif should be a string where uppercase
+                        letters represent fixed amino acids, and lowercase 'x' represents any amino acid or character. For example,
+                        'RxxxxH' will match any sequence where 'R' is followed by four arbitrary amino acids and ending with 'H'. The 'x'
+                        can match any character, including non-amino acid characters. [def. RxxxxH]
+
+```
+```
 crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta 
 ```
 <pre>
