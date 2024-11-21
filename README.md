@@ -89,7 +89,9 @@ options:
 
 ```
 ```
-crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta 
+crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta
+
+crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta --motif RxxxxH
 ```
 <pre>
   2024-11-17_21-01-10
