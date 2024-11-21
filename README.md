@@ -146,9 +146,11 @@ crisprcasstream rna DR.fasta
 
 ## msa: Run protein multiple sequence alignment
 The input file is in FASTA format, containing protein sequences for multiple sequence alignment.
-`  crisprcasstream_results/protein.fasta
-`  crisprcasstream_results/protein_MSA_TREE.pdf
-`  crisprcasstream_results/protein_MSA.pdf
+<pre>
+crisprcasstream_results/protein.fasta
+crisprcasstream_results/protein_MSA_TREE.pdf
+crisprcasstream_results/protein_MSA.pdf
+</pre>
 ```
 crisprcasstream msa protein.fasta
 ```
