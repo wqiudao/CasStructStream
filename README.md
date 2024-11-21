@@ -159,6 +159,7 @@ crisprcasstream msa protein.fasta
   Done....
 </pre>
 ![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream8.png)
+![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream12.png)
 
 
 # References/Citations
