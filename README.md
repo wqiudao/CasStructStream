@@ -7,6 +7,7 @@ CRISPRCasStream simplifies both installation and usage, enabling the rapid ident
 usage: crisprcasstream [-h] {sCas,rna,msa} ...
 
 A tool for designed for Streamlining identification of CRISPR-Cas systems
+<span style="color:red;">This text will be red.</span>
 
 positional arguments:
   {sCas,rna,msa}  Subcommands
