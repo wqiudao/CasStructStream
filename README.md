@@ -90,7 +90,7 @@ options:
 ```
 ```
 crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta
-
+# or
 crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta --motif RxxxxH
 ```
 <pre>
