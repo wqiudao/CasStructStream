@@ -62,7 +62,7 @@ Use the sCas function with the file `714PHBRim19094_FD_assembly.contigs.fasta` t
 All results are saved in the `crisprcasstream_results` directory.
   1. crisprcasstream_results/CRISPRCasStream_714PHBRim19094_FD_assembly_2024-11-17_21-01-10.csv
   2. crisprcasstream_results/sCas_scan_2024-11-17_21-01-25_page_1.pdf
-
+  3. crisprcasstream_results/RNA_Struct_DR_714PHBRim19094_FD_assembly_2024-11-22_15-51-38.pdf
 ```
 usage: crisprcasstream sCas [-h] [--genome_size GENOME_SIZE] [--flanking_length FLANKING_LENGTH] [--cas_min CAS_MIN] [--cas_max CAS_MAX]
                             [--motif MOTIF]
