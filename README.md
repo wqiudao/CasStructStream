@@ -106,6 +106,8 @@ crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta --motif RxxxxH
 ![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream2.png)
 ![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream3.png)
 ![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream4.png)
+![sCas](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream13.png)
+
 
 ## rna: Draw RNA secondary structure.
 The input file is in FASTA format, containing sequences for RNA secondary structure prediction.
