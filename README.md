@@ -29,6 +29,7 @@ conda install anaconda::pyqt -y
 conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
 conda install bioconda::hmmer  -y
+conda install wqiudao::crisprcasstream   -y
 
 ```
 [optional]
