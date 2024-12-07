@@ -173,7 +173,7 @@ crisprcasstream msa protein.fasta
 
 
 # References/Citations
-Structure-Enhanced Streamlined Approaches Reveal Four Novel Compact Cas13 Proteins
+Structure-enhanced streamlined approach reveals novel compact Cas13 proteins with non-canonical features
 
 
 
