@@ -1,4 +1,5 @@
 # CasStructStream
+CasStructStream combines the rapid CRISPR-Cas detection capabilities of a built-in Cas_HMM_db library with integrated visualization and the streamlined structural comparison power of the preloaded Cas-StructCores library.
 
 usage: CasStructStream [-h] {sCas,rna,msa,pdb2dalidb,makedalidb} ...
 
