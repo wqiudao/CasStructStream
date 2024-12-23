@@ -23,7 +23,7 @@ options:
 ```
 dnf install compat-libgfortran-48.x86_64       # requires root privileges
 
-conda create -n crisprcasstream python=3.12  -y
+conda create -n casstructstream python=3.12  -y
 conda activate crisprcasstream
 
 pip install matplotlib
