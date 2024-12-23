@@ -1,21 +1,20 @@
 # CasStructStream
 
-CRISPRCasStream simplifies both installation and usage, enabling the rapid identification of CRISPR-Cas systems directly from assembled genomic data while providing graphical representations. Compared to similar tools, CRISPRCasStream offers a fivefold increase in identification speed, making it a highly efficient solution for CRISPR-Cas analysis.
-``` bash
-(crisprcasstream) [miniconda3@localhost CRISPRCasStream]$ crisprcasstream 
-usage: crisprcasstream [-h] {sCas,rna,msa} ...
+usage: CasStructStream [-h] {sCas,rna,msa,pdb2dalidb,makedalidb} ...
 
 A tool for designed for Streamlining identification of CRISPR-Cas systems
 
-
 positional arguments:
-  {sCas,rna,msa}  Subcommands
-    sCas          Streamlined Scanning of CRISPR-Cas Systems.
-    rna           Draw RNA secondary structure.
-    msa           Run protein multiple sequence alignment.
+  {sCas,rna,msa,pdb2dalidb,makedalidb}
+                        Subcommands
+    sCas                Streamlined Scanning of CRISPR-Cas Systems.
+    rna                 Draw RNA secondary structure.
+    msa                 Run protein multiple sequence alignment.
+    pdb2dalidb          Compare a PDB file with DALI database.
+    makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent structural searches.
 
 options:
-  -h, --help      show this help message and exit
+  -h, --help            show this help message and exit
 
 ```
 
