@@ -32,6 +32,7 @@ conda install anaconda::pyqt -y
 conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
 conda install bioconda::hmmer  -y
+conda install wqiudao::casstructstream
 
 ```
 [optional]
@@ -69,7 +70,7 @@ All results are saved in the `crisprcasstream_results` directory.
   2. crisprcasstream_results/sCas_scan_2024-11-17_21-01-25_page_1.pdf
   3. crisprcasstream_results/RNA_Struct_DR_714PHBRim19094_FD_assembly_2024-11-22_15-51-38.pdf
 ```
-usage: crisprcasstream sCas [-h] [--genome_size GENOME_SIZE] [--flanking_length FLANKING_LENGTH] [--cas_min CAS_MIN] [--cas_max CAS_MAX]
+usage: casstructstream sCas [-h] [--genome_size GENOME_SIZE] [--flanking_length FLANKING_LENGTH] [--cas_min CAS_MIN] [--cas_max CAS_MAX]
                             [--motif MOTIF]
                             assembly_file
 
