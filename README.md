@@ -177,7 +177,7 @@ crisprcasstream msa protein.fasta
 
 
 # References/Citations
-Structure-enhanced streamlined approach reveals novel compact Cas13 proteins with non-canonical features
+CasStructStream: A Software Solution for Accelerating Cas System Discovery and Structural Comparison
 
 
 
