@@ -176,6 +176,26 @@ crisprcasstream msa protein.fasta
 ![rna](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/crisprcasstream12.png)
 
 
+
+
+### pdb2dalidb
+Use the built-in CAS core library to perform structural comparisons.
+```
+casstructstream pdb2dalidb test.pdb
+```
+### makedalidb
+Use the subcommand `makedalidb` to create a custom reference structure database.
+
+```
+casstructstream makedalidb HEPN_REF_PDB_Cas13_abdhx
+casstructstream pdb2dalidb --dali_database  HEPN_REF_PDB_Cas13_abdhx_dali test.pdb 
+```
+
+
+
+
+
+
 # References/Citations
 CasStructStream: A Software Solution for Accelerating Cas System Discovery and Structural Comparison
 
