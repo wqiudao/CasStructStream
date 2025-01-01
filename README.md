@@ -17,6 +17,7 @@ positional arguments:
 
 options:
   -h, --help            show this help message and exit
+
 </pre>
 
 ## install
@@ -32,7 +33,7 @@ conda install anaconda::pyqt -y
 conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
 conda install bioconda::hmmer  -y
-conda install wqiudao::casstructstream
+conda install wqiudao::casstructstream  -y
 
 ```
 [optional]
