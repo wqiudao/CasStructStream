@@ -96,9 +96,9 @@ options:
 
 ```
 ```
-crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta
+casstructstream  sCas 714PHBRim19094_FD_assembly.contigs.fasta
 # or
-crisprcasstream sCas 714PHBRim19094_FD_assembly.contigs.fasta --motif RxxxxH
+casstructstream  sCas 714PHBRim19094_FD_assembly.contigs.fasta --motif RxxxxH
 ```
 <pre>
   2024-11-17_21-01-10
@@ -138,7 +138,7 @@ The input file is in FASTA format, containing sequences for RNA secondary struct
   GTTATACAATACCCCTAAATTA
 </pre>
 ```
-crisprcasstream rna DR.fasta
+casstructstream  rna DR.fasta
 ```
 <pre>
     1 GTCGCCCTCTTCACAGGGGGCGTGGATTGAAA scaffold_782_c1
@@ -163,7 +163,7 @@ output:
   crisprcasstream_results/protein_MSA.pdf
 </pre>
 ```
-crisprcasstream msa protein.fasta
+casstructstream  msa protein.fasta
 ```
 <pre>
   Check for duplicates in FASTA headers and replace invalid characters....
@@ -181,7 +181,7 @@ crisprcasstream msa protein.fasta
 ### pdb2dalidb
 Use the built-in CAS core library to perform structural comparisons.
 ```
-casstructstream pdb2dalidb test.pdb
+casstructstream  pdb2dalidb test.pdb
 ```
 ### makedalidb
 Use the subcommand `makedalidb` to create a custom reference structure database.
