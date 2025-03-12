@@ -27,6 +27,7 @@ dnf install compat-libgfortran-48.x86_64       # requires root privileges
 conda create -n casstructstream python=3.12  -y
 conda activate casstructstream 
 
+pip install gemmi
 pip install matplotlib
 conda install conda-forge::perl  -y
 conda install anaconda::pyqt -y
@@ -182,6 +183,7 @@ casstructstream  msa protein.fasta
 Use the built-in CAS core library to perform structural comparisons.
 ```
 casstructstream  pdb2dalidb test.pdb
+casstructstream  pdb2dalidb test.cif
 ```
 ### makedalidb
 Use the subcommand `makedalidb` to create a custom reference structure database.
