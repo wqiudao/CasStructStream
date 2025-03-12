@@ -29,6 +29,7 @@ conda activate casstructstream
 
 pip install gemmi
 pip install matplotlib
+pip install PyQt5
 conda install conda-forge::perl  -y
 conda install anaconda::pyqt -y
 conda install bioconda::piler-cr -y
