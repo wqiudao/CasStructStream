@@ -15,6 +15,7 @@ positional arguments:
     pdb2dalidb          Compare a PDB file with DALI database.
     pdb_folder2dalidb   Compare a folder of PDB files against the DALI structural database.
     makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent structural searches.
+    scatter             Generate scatter plots from a CSV file
 
 options:
   -h, --help            show this help message and exit
