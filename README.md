@@ -32,6 +32,7 @@ pip install gemmi
 pip install matplotlib
 pip install PyQt5
 pip install pandas
+
 conda install conda-forge::perl  -y
 conda install anaconda::pyqt -y
 conda install bioconda::piler-cr -y
