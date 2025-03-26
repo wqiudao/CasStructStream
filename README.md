@@ -13,6 +13,7 @@ positional arguments:
     rna                 Draw RNA secondary structure.
     msa                 Run protein multiple sequence alignment.
     pdb2dalidb          Compare a PDB file with DALI database.
+    pdb_folder2dalidb   Compare a folder of PDB files against the DALI structural database.
     makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent structural searches.
 
 options:
