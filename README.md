@@ -219,6 +219,7 @@ casstructstream pdb_folder2dalidb pdb_folder
 ```
 
 
+![pdb_folder](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/pdb_Folder.png)
 
 
 
