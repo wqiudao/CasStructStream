@@ -1,21 +1,27 @@
 # CasStructStream
 <pre>
-CasStructStream combines the rapid CRISPR-Cas detection capabilities of a built-in Cas_HMM_db library with integrated visualization and the streamlined structural comparison power of the preloaded Cas-StructCores library.
-
-usage: casstructstream [-h] {sCas,rna,msa,pdb2dalidb,makedalidb} ...
+usage: casstructstream [-h]
+                       {sCas,rna,msa,pdb2dalidb,pdb_folder2dalidb,structmap,makedalidb,scatter,extract_af3_results,create_run_af3_from_csv_sh}
+                       ...
 
 A tool for designed for Streamlining identification of CRISPR-Cas systems
 
 positional arguments:
-  {sCas,rna,msa,pdb2dalidb,makedalidb}
+  {sCas,rna,msa,pdb2dalidb,pdb_folder2dalidb,structmap,makedalidb,scatter,extract_af3_results,create_run_af3_from_csv_sh}
                         Subcommands
     sCas                Streamlined Scanning of CRISPR-Cas Systems.
     rna                 Draw RNA secondary structure.
     msa                 Run protein multiple sequence alignment.
     pdb2dalidb          Compare a PDB file with DALI database.
     pdb_folder2dalidb   Compare a folder of PDB files against the DALI structural database.
-    makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent structural searches.
+    structmap           Generate structural comparison matrix and clustering tree from a folder of PDB files.
+    makedalidb          Create DALI database: Converts a set of PDB files to DALI format numbers for subsequent
+                        structural searches.
     scatter             Generate scatter plots from a CSV file
+    extract_af3_results
+                        Extract AF3 prediction results and summary.
+    create_run_af3_from_csv_sh
+                        Create the run_af3_from_csv.sh shell script.
 
 options:
   -h, --help            show this help message and exit
