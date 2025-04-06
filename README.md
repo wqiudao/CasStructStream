@@ -229,6 +229,25 @@ casstructstream pdb_folder2dalidb pdb_folder
 
 
 
+### structmap           
+Generate structural comparison matrix and clustering tree from a folder of PDB files.
+```
+usage: casstructstream structmap [-h] [--threads THREADS] [--width WIDTH] [--inner_width INNER_WIDTH] [--inner_height INNER_HEIGHT] pdb_folder
+
+positional arguments:
+  pdb_folder            Folder containing PDB files to be structurally compared.
+
+options:
+  -h, --help            show this help message and exit
+  --threads THREADS     Number of threads to use for structural comparisons (default: all CPU cores).
+  --width WIDTH         Width (in pixels) of the output ETE3 tree image (default: 800).
+  --inner_width INNER_WIDTH
+                        Width (in inches) of the combined heatmap/dendrogram/tree figure (default: 28).
+  --inner_height INNER_HEIGHT
+                        Height (in inches) of the combined heatmap/dendrogram/tree figure (default: 8).
+
+```
+
 
 # References/Citations
 CasStructStream: A Software Solution for Accelerating Cas System Discovery and Structural Comparison
