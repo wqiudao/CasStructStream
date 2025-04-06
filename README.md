@@ -246,6 +246,8 @@ options:
   --inner_height INNER_HEIGHT
                         Height (in inches) of the combined heatmap/dendrogram/tree figure (default: 8).
 
+
+casstructstream structmap pdb_folder
 ```
 ![pdb_folder](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/structmap.png)
 
