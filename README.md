@@ -247,6 +247,7 @@ options:
                         Height (in inches) of the combined heatmap/dendrogram/tree figure (default: 8).
 
 ```
+![pdb_folder](https://github.com/wqiudao/CRISPRCasStream/blob/main/img/structmap.png)
 
 
 # References/Citations
