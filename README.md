@@ -1,13 +1,13 @@
 # CasStructStream
 <pre>
 usage: casstructstream [-h]
-                       {sCas,rna,msa,pdb2dalidb,pdb_folder2dalidb,structmap,makedalidb,scatter,extract_af3_results,create_run_af3_from_csv_sh}
+                       {sCas,rna,msa,pdb2dalidb,structcompare,structmap,makedalidb,scatter,extract_af3_results,create_run_af3_from_csv_sh}
                        ...
 
 A tool for designed for Streamlining identification of CRISPR-Cas systems
 
 positional arguments:
-  {sCas,rna,msa,pdb2dalidb,pdb_folder2dalidb,structmap,makedalidb,scatter,extract_af3_results,create_run_af3_from_csv_sh}
+  {sCas,rna,msa,pdb2dalidb,structcompare,structmap,makedalidb,scatter,extract_af3_results,create_run_af3_from_csv_sh}
                         Subcommands
     sCas                Streamlined Scanning of CRISPR-Cas Systems.
     rna                 Draw RNA secondary structure.
