@@ -203,11 +203,11 @@ Use the subcommand `makedalidb` to create a custom reference structure database.
 casstructstream makedalidb HEPN_REF_PDB_Cas13_abdhx
 casstructstream pdb2dalidb --dali_database  HEPN_REF_PDB_Cas13_abdhx_dali test.pdb 
 ```
-### pdb_folder2dalidb
+### structcompare
 Compare a folder of PDB files against the DALI structural database.
 
 ```
-usage: casstructstream pdb_folder2dalidb [-h] [--dali_database DALI_DATABASE] [--ymax YMAX] [--threads THREADS] pdb_folder
+usage: casstructstream structcompare [-h] [--dali_database DALI_DATABASE] [--ymax YMAX] [--threads THREADS] pdb_folder
 
 positional arguments:
   pdb_folder            The name of the folder containing PDB files to be compared.
@@ -221,7 +221,7 @@ options:
   --threads THREADS     Number of threads to use for parallel processing (default: use all available CPU cores).
 
 
-casstructstream pdb_folder2dalidb pdb_folder
+casstructstream structcompare pdb_folder
 ```
 
 
