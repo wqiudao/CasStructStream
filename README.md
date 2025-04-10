@@ -253,7 +253,7 @@ casstructstream structmap pdb_folder
 
 
 # References/Citations
-CasStructStream: A Software Solution for Accelerating Cas System Discovery and Structural Comparison
+ 
 
 
 
