@@ -50,6 +50,8 @@ conda install wqiudao::casstructstream  -y
 ```
 [optional]
 ```
+conda install wqiudao::qdtools -y
+
 dnf install epel-release
 
 sudo dnf install  https://www.itzgeek.com/msttcore-fonts-2.0-3.noarch.rpm
