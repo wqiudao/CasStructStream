@@ -37,7 +37,6 @@ conda activate casstructstream
 
 pip install gemmi
 pip install matplotlib
-pip install PyQt5
 pip install pandas
 pip install scipy
 conda install conda-forge::perl  -y
@@ -47,6 +46,9 @@ conda install bioconda::prodigal -y
 conda install bioconda::hmmer -y
 
 conda install wqiudao::casstructstream  -y
+
+
+#pip install PyQt5
 
 ```
 [optional]
