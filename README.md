@@ -40,10 +40,10 @@ pip install matplotlib
 pip install pandas
 pip install scipy
 pip install PyQt5
-conda install anaconda::pyqt -y
 conda install conda-forge::perl  -y
 conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
+conda install anaconda::pyqt -y
 conda install bioconda::hmmer -y
 
 conda install wqiudao::casstructstream  -y
