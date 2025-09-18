@@ -44,7 +44,7 @@ conda install conda-forge::perl  -y
 conda install anaconda::pyqt -y
 conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
-conda install bioconda::hmmer  -y
+conda install -c bioconda "hmmer=3.3.2"  -y
 conda install wqiudao::casstructstream  -y
 
 ```
