@@ -46,6 +46,7 @@ conda install conda-forge::perl  -y
 conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
 conda install bioconda::fasta3 -y
+pip install pymol-open-source
 conda install wqiudao::casstructstream  -y
 ```
 [optional]
