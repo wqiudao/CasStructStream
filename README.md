@@ -48,6 +48,7 @@ conda install bioconda::prodigal -y
 conda install bioconda::fasta3 -y
 conda install -c conda-forge pymol-open-source  -y
 pip install pyrodigal -y
+pip install pypdf
 conda install wqiudao::casstructstream  -y
 ```
 [optional]
