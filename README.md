@@ -49,7 +49,6 @@ conda install bioconda::fasta3 -y
 conda install -c conda-forge pymol-open-source  -y
 pip install pyrodigal -y
 pip install pypdf
-pip install reportlab
 conda install wqiudao::casstructstream  -y
 ```
 [optional]
