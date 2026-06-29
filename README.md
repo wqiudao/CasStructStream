@@ -49,6 +49,7 @@ conda install bioconda::fasta3 -y
 conda install -c conda-forge pymol-open-source  -y
 pip install pyrodigal -y
 pip install pypdf
+conda install -c conda-forge mdanalysis parmed -y
 conda install wqiudao::casstructstream  -y
 ```
 [optional]
@@ -64,6 +65,8 @@ sudo fc-cache -fv
 
 
 error [optional]
+
+pip install --no-cache-dir scipy==1.16.2
 <pre>
 Qt: Session management error: None of the authentication protocols specified are supported.
 
