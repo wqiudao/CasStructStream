@@ -66,6 +66,14 @@ sudo fc-cache -fv
 
 error [optional]
 
+ conda install -c conda-forge libgfortran=3 -y
+
+ find  /root/miniconda3/envs/casstructstream   -name libgfortran.so.3
+ 
+sudo ln -sf /root/miniconda3/envs/casstructstream/lib/libgfortran.so.3 /usr/lib/x86_64-linux-gnu/libgfortran.so.3
+sudo ldconfig
+
+
 pip install --no-cache-dir scipy==1.16.2
 <pre>
 Qt: Session management error: None of the authentication protocols specified are supported.
