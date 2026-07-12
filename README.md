@@ -47,7 +47,7 @@ conda install bioconda::piler-cr -y
 conda install bioconda::prodigal -y
 conda install bioconda::fasta3 -y
 conda install -c conda-forge pymol-open-source  -y
-pip install pyrodigal -y
+pip install pyrodigal
 pip install pypdf
 conda install -c conda-forge mdanalysis parmed -y
 conda install wqiudao::casstructstream  -y
