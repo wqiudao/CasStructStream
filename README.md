@@ -50,6 +50,7 @@ conda install -c conda-forge pymol-open-source  -y
 pip install pyrodigal
 pip install pypdf
 conda install -c conda-forge mdanalysis parmed -y
+conda install -c conda-forge libgfortran=3 -y
 conda install wqiudao::casstructstream  -y
 ```
 [optional]
